@@ -1,0 +1,74 @@
+#intro{
+    height:calc(100vh - 5rem);
+    width:100vw;
+    max-width:75rem;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.bg{
+    position: absolute;
+    top:1rem;
+    right:0px;
+    z-index:-1;
+    object-fit: cover;
+    height:100vh;
+    width:600px;
+    border-radius: 50%;
+   
+}
+.introContent{
+    height:100vh;
+    width:100vw;
+    padding:2rem;
+    font-weight:700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+}
+.hello{
+    font-size:1.75rem;
+    font-weight: 100;
+
+}
+.introName{
+    color: darkorange;
+}
+.introPara{
+    font-size: medium;
+    font-weight:100;
+
+}
+.btn{
+    height:50px;
+    width:100px;
+    background: darkorange;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    padding:2px;
+}
+
+/*responsiveness*/
+@media screen and (max-width:840px){
+    .bg{
+        right:-10vw;
+    }
+    .introContent{
+        font-size:10vw;
+    }
+
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px){
+    .bg{
+        right:-20vw;
+    }
+}

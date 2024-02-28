@@ -1,0 +1,55 @@
+#skills{
+    overflow:hidden;
+    width:100vw;
+    max-width: 65rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+}
+.skillsTitle{
+    font-size: 3rem;
+    font-weight:600;
+    font-family: 'Poppins';
+    padding-top:3rem;
+    margin-bottom: 1.5rem;
+
+
+
+}
+
+.skillsDesc{
+    font-weight:400;
+    font-size: 0.8rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+
+}
+
+.skillsBars{
+   
+    margin:1.5rem;
+    width:100vw;
+    max-width: 80%;
+    text-align: left;
+   
+    
+}
+.skillsBar{
+    display:flex;
+    margin:1rem;
+    padding:1.5rem 5rem;
+    background: rgb(50,50,50);
+    border-radius: 10px; 
+
+}
+.skillsBarImg{
+    width:70px;
+    height:70px;
+    margin-right:50px;
+    object-fit: cover;
+    
+
+}
